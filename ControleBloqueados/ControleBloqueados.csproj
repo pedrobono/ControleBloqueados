@@ -6,7 +6,17 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Authors>Pedro Henrique Bono</Authors>
+    <Company>BTech Sistemas</Company>
+    <Description>Aplicativo criado para dar autonomia nos cadastros a bloquear todos os dias</Description>
+    <Copyright>Open Source; Creditar Autor sempre que usar este aplicativo</Copyright>
+    <AssemblyVersion>1.0</AssemblyVersion>
+    <FileVersion>1.0</FileVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Npgsql" Version="6.0.5" />
